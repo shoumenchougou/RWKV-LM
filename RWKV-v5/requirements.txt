@@ -1,3 +1,5 @@
+conda
+python 3.10 +
 torch
 pytorch-lightning==1.9.5
 deepspeed
