@@ -256,7 +256,7 @@ sh demo-training-run.sh
 ```
 成功运行后，应该可以看到类似于这样的效果：
 
-![alt text](image-1.png)
+![alt text](./image/suc.png)
 
 ## 常见问题​：
 
@@ -268,11 +268,11 @@ sh demo-training-run.sh
 
 2. jsonl 转 binidx 时出现 JSONDecodeError:Unmatched '"' when decoding 'string'! 报错
    
-![alt text](2dda41fafc4811d05178e88c2b43e8d9.png)
+![alt text](./image/2dda41fafc4811d05178e88c2b43e8d9.png)
 
-解决方法：这是因为你的 jsonl 文件缺少引号，请检查 jsonl 文件的行是否符合以下引号格式：
+解决方法：这是因为你的 jsonl 文件缺少引号，请检查 jsonl 文件的所有行是否都符合以下引号格式：
 
-![alt text](ceab94008199dcd5cec49d065aa87833.png)
+![alt text](./image/ceab94008199dcd5cec49d065aa87833.png)
 
 3. 克隆 GitHub 仓库时出现 fatal: unable to access 'https://github.com/shoumenchougou/RWKV-LM.git/': GnuTLS recv error (-110): The TLS connection was non-properly terminate
 
